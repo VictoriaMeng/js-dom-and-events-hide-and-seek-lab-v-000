@@ -5,5 +5,5 @@ function nestedTarget(){
   return document.getElementById('nested');
 };
 function increaseRankBy(n){
-  return document.querySelectorAll('.ranked-list').map(r => return ++parseIn(r););
+  return document.querySelectorAll('.ranked-list').map(r => return ++parseInt(r););
 }
