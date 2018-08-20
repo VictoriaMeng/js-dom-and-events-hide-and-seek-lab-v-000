@@ -4,6 +4,6 @@ function getFirstSelector(selector){
 function nestedTarget(){
   return document.getElementById('nested');
 };
-function increaseRankBy(){
-
+function increaseRankBy(n){
+  reurn document.querySelectorAll('.ranked-list')
 }
