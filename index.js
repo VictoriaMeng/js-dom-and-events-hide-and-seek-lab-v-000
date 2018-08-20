@@ -7,9 +7,9 @@ function nestedTarget(){
 
 function deepestChild(){
   let children = document.getElementById('grand-node');
-  while (typeof children[0] != 'undefined') {
-    children = children.querySelectorAll('div');
-  }
+  // while (typeof children[0] != 'undefined') {
+  //   children = children.querySelectorAll('div');
+  // }
   return children;
 };
 
