@@ -6,11 +6,11 @@ function nestedTarget(){
 };
 
 function deepestChild(){
-  let children = document.getElementById('grand-node');
-  debugger;
-  while (typeof children[0] != 'undefined') {
-    children = children.querySelectorAll('div');
-  }
+  let selector = '#grand-node';
+  const list = document.querySelectorAll('#grand-node');
+  for (let i of list) {
+    selector = selector + ' div';
+  };
   return children;
 };
 
