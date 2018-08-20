@@ -11,7 +11,7 @@ function deepestChild(){
   for (let i of list) {
     selector = selector + ' div';
   };
-  return children;
+  return document.querySelector(selector);
 };
 
 function increaseRankBy(n){
