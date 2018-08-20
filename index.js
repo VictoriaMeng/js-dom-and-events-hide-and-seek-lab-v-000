@@ -6,10 +6,10 @@ function nestedTarget(){
 };
 
 function deepestChild(){
-  let children = document.querySelectorAll('grand-node');
-  // while (typeof children[0] != 'undefined') {
-  //   children = children.querySelectorAll('div');
-  // }
+  let children = document.getElementById('grand-node');
+  while (typeof children[0] != 'undefined') {
+    children = children.querySelectorAll('div');
+  }
   return children;
 };
 
